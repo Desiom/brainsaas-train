@@ -1,0 +1,24 @@
+var data = {
+  "name":"mmse",
+  "data":{
+    "1":{
+      "name":"NO1",
+      "title":"第一道题目",
+      "options":["无","有时","常常"]
+    },
+    "2":{
+      "name":"NO2",
+      "title":"第一道题目",
+      "options":["无","有时","常常"]
+    },
+    "3":{
+      "name":"NO3",
+      "title":"第一道题目",
+      "options":["无","有时","常常"]
+    },
+    "4":{
+      "name":"NO4",
+      "url":"ddfdf"
+    }
+  }
+}

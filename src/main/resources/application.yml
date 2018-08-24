@@ -1,0 +1,39 @@
+spring:
+  profiles:
+    active: dev
+#    active: prod
+#  application:
+#    name: brainsaas-scale-server
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://59.110.173.58:3306/brainsaas_train?characterEncoding=utf-8&useSSL=false
+#    username: root
+#    password: jsBrain@123
+  jpa:
+    hibernate:
+      ddl-auto: update
+      # create:程序运行无名称则新建表，有则删除重建；
+      # update:程序运行有表不操作，无表新建一个表；
+      # create-drop:应用一但停止则删除表，一运行则新建；
+      # none:不进行任何操作
+      # validate:程序运行时检测实体与表字段是否对应，不对应则报错
+    show-sql: true  #打印sql语句
+#      naming:
+#        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect #使用InnoDB引擎，不加这句则默认为MYISAM引擎
+
+#  resources:
+#    static-locations: classpath:/static/
+#    chain:
+#      enabled: true
+#      cache: true
+#      strategy:
+#        content:
+#          enabled: true
+#          paths: static/**
+#        fixed:
+#          enabled: true
+#          paths: /js/**,/foo/**
+#          version: v12
+#  mvc:
+#    static-path-pattern: static/**

@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /train
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://59.110.173.58:3306/brainsaas_train?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: jsBrain@123

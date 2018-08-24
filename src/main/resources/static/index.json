@@ -1,0 +1,282 @@
+{
+  "name":"Ullanlinna发作性睡病量表",
+  "order": false,
+  "questions": [
+    {
+      "questionOrder":1,
+      "firstW":600,
+      "firstLine":["","a. 从不","b. 至今发生过1-5次","c. 每月一次","d. 每周一次","e. 每天一次或接近每天一次"],
+      "content":[{
+        "name":"",
+        "content":["1.  当你大笑，愉快或者愤怒，或者处于兴奋状态时，下列症状是否会突然出现？"]
+      }],
+      "data":{
+        "1": {
+          "name": "NO1",
+          "title": "双膝发软",
+          "options": [
+            {
+              "label": 0
+            },
+            {
+              "label": 1
+            },
+            {
+              "label": 2
+            },
+            {
+              "label": 3
+            },
+            {
+              "label": 4
+            }
+          ]
+        },
+        "2": {
+          "name": "NO2",
+          "title": "张口",
+          "options": [
+            {
+              "label": 0
+            },
+            {
+              "label": 1
+            },
+            {
+              "label": 2
+            },
+            {
+              "label": 3
+            },
+            {
+              "label": 4
+            }
+          ]
+        },
+        "3": {
+          "name": "NO3",
+          "title": "点头",
+          "options": [
+            {
+              "label": 0
+            },
+            {
+              "label": 1
+            },
+            {
+              "label": 2
+            },
+            {
+              "label": 3
+            },
+            {
+              "label": 4
+            }
+          ]
+        },
+        "4": {
+          "name": "NO4",
+          "title": "摔倒",
+          "options": [
+            {
+              "label": 0
+            },
+            {
+              "label": 1
+            },
+            {
+              "label": 2
+            },
+            {
+              "label": 3
+            },
+            {
+              "label": 4
+            }
+          ]
+        }
+      }
+    },
+    {
+      "questionOrder":2,
+      "firstW":600,
+      "firstLine":["a. >40分钟","b. 31～ 40分钟"," c. 21～ 30分钟"," d. 10～ 20分钟","e. <10分钟"],
+      "content":[{
+        "name":"",
+        "content":["2.  通常您晚上多久可以入睡？"]
+      }],
+      "data":{
+        "1": {
+          "name": "NO1",
+          "title": "",
+          "options": [
+            {
+              "label": 0
+            },
+            {
+              "label": 1
+            },
+            {
+              "label": 2
+            },
+            {
+              "label": 3
+            },
+            {
+              "label": 4
+            }
+          ]
+        }
+      }
+    },
+    {
+      "questionOrder":3,
+      "firstW":"auto",
+      "firstLine":["a. 不需要 ","b. 想睡,但是睡不着"," c. 每周两次或更少"," d. 每周3-5天","e. 每天或几乎整天"],
+      "content":[{
+        "name":"",
+        "content":["3.  您白天会睡觉吗（小睡）?"]
+      }],
+      "data":{
+        "1": {
+          "name": "NO1",
+          "title": "",
+          "options": [
+            {
+              "label": 0
+            },
+            {
+              "label": 1
+            },
+            {
+              "label": 2
+            },
+            {
+              "label": 3
+            },
+            {
+              "label": 4
+            }
+          ]
+        }
+      }
+    },
+    {
+      "questionOrder":4,
+      "firstW":275,
+      "firstLine":["情境","a. 从不","b. 每月或更少","c. 每周","d. 每天","e. 每天多次"],
+      "content":[{
+        "name":"",
+        "content":["4.  您白天会无意识地突然睡着吗？"]
+      }],
+      "data":{
+        "1": {
+          "name": "NO1",
+          "title": "阅读",
+          "options": [
+            {
+              "label": 0
+            },
+            {
+              "label": 1
+            },
+            {
+              "label": 2
+            },
+            {
+              "label": 3
+            },
+            {
+              "label": 4
+            }
+          ]
+        },
+        "2": {
+          "name": "NO2",
+          "title": "旅行",
+          "options": [
+            {
+              "label": 0
+            },
+            {
+              "label": 1
+            },
+            {
+              "label": 2
+            },
+            {
+              "label": 3
+            },
+            {
+              "label": 4
+            }
+          ]
+        },
+        "3": {
+          "name": "NO3",
+          "title": "站立",
+          "options": [
+            {
+              "label": 0
+            },
+            {
+              "label": 1
+            },
+            {
+              "label": 2
+            },
+            {
+              "label": 3
+            },
+            {
+              "label": 4
+            }
+          ]
+        },
+        "4": {
+          "name": "NO4",
+          "title": "吃饭",
+          "options": [
+            {
+              "label": 0
+            },
+            {
+              "label": 1
+            },
+            {
+              "label": 2
+            },
+            {
+              "label": 3
+            },
+            {
+              "label": 4
+            }
+          ]
+        },
+        "5": {
+          "name": "NO5",
+          "title": "其他不常见情况",
+          "options": [
+            {
+              "label": 0
+            },
+            {
+              "label": 1
+            },
+            {
+              "label": 2
+            },
+            {
+              "label": 3
+            },
+            {
+              "label": 4
+            }
+          ]
+        }
+      }
+    }
+  ]
+
+}
